@@ -18,16 +18,16 @@ function App() {
       description={data[0].description}
     />
      <WayToEach 
-      title={data[1].title}
-      description={data[1].description}
+      {...data[1]}
     />
-     <WayToEach 
-      title={data[2].title}
-      description={data[2].description}
+    <WayToEach 
+      {...data[2]}
     />
-     <WayToEach 
-      title={data[3].title}
-      description={data[3].description}
+    <WayToEach 
+      {...data[3]}
+    />
+    <WayToEach 
+      {...data[4]}
     />
   </main>
     

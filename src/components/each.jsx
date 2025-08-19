@@ -1,11 +1,11 @@
 
 
-export default function WayToEach(props) {
+export default function WayToEach({ title, description }) {
   return(
 <ul>
         <li>
           <p>
-            <strong>{title}</strong>{description}
+            <strong>{title}</strong> {description}
             
           </p>
         </li>
